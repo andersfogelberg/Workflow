@@ -1,10 +1,16 @@
 *{box-sizing: order-box}
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 body {
 	background-image: url("sample-background.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
+<<<<<<< HEAD
 	display: inline-block;
+=======
+>>>>>>> master
 	font-family: "Courier New", Courier, monospace;
 	padding: 0;
 	margin: 0;
@@ -15,6 +21,7 @@ body {
 	color: #124910;
 }
 
+<<<<<<< HEAD
 .container1 {
 	position: fixed;
 	background-color: black;
@@ -128,12 +135,62 @@ a:hover.contact-link {
 
 #download-link{
 	padding-top: 4%;
+=======
+.blackground {
+	background-color: black;
+	padding-right: 5%;
+}
+
+a:link.hyper-nav, a:visited.hyper-nav {
+	color: white !important;
+	text-decoration: none;
+}
+
+a:hover.hyper-nav {
+	color: #124910 !important;
+	text-decoration: none;
+}
+
+.header {
+	padding-bottom: 20%;
+	padding-top: 8%;
+	color: white;
+	text-align: center;
+}
+h1 {
+	font-weight: bold;
+}
+
+.grey {
+	height: 20%;
+	background-color: grey;
+	color: white;
+	padding: 5% 0;
+}
+h4 {
+	font-size: 150%;
+	font-weight: bold;
+}
+.full {
+	padding-right: 3%;
+}
+.resume {
+	background-color: white;
+	padding-top: 3%;
+}
+.res-download {
+	padding-bottom: 3%;
+}
+.download {
+	padding-top: 2vh;
+>>>>>>> master
 }
 a.download-link {
 	color: #909090;
 	text-decoration: none;
 	border-bottom: dotted 1px #909090;
 }
+<<<<<<< HEAD
 
 .container3 {
 	background-color: black;
@@ -226,6 +283,19 @@ a:link.icon-reference {
 	color: #333333;
 	text-decoration: none;
 	line-height: 0;
+=======
+.contact {
+	background-color: #333333;
+	color: white;
+	padding:3% 0;
+}
+
+
+.footer {
+	background-color: black;
+	color: white;
+	text-align: right;
+>>>>>>> master
 }
 
 
