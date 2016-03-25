@@ -1,160 +1,147 @@
 <!Doctype html>
-<html>
-
+<html lang=en>
 <head>
-	<title>Anders Fogelberg Web Resume</title>
-
+	<meta charset="utf-8">
+	<link href="bootstrap.min.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
-	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-
-	<div class="container1">
-		<div class="nav">
-			<a class="nav-link" href="#about-me">About Me</a> || 
-			<a  class="nav-link" href="#portfolio">Portfolio</a> || 
-			<a class="nav-link" href="#resume">Resume</a> || 
-			<a class="nav-link" href="#contact-me">ContactMe</a>
+	<nav class="navbar navbar-inverse navbar-fixed-top blackground">
+ 		 <div class="container-fluid">
+ 		 	 <div class="navbar-header">
+     			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+       				<span class="icon-bar"></span>
+       				<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>                     
+      			</button>
+   			 </div>
+   			 <div class="collapse navbar-collapse" id="myNavbar">
+   			 	<ul class="nav navbar-nav navbar-right">
+     				<li><a class="hyper-nav" href="#about-me">About Me</a></li>
+ 	     			<li><a  class="hyper-nav" href="#portfolio">Portfolio</a></li>
+	      			<li><a class="hyper-nav" href="#resume">Resume</a></li> 
+      				<li><a class="hyper-nav" href="#contact-me">Contact Me</a></li> 
+    			</ul>
+    		</div>
+  		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row header">		
+			<div class="col-sm-5 col-sm-push-7">
+				<h1 class="red">Anders Fogelberg</h1>
+				<h5>Software Engineer<a class="red"> || </a>Web Developer</h5>
+			</div>
 		</div>
 	</div>
-
-	<div class="container2">		
-		<div class="header">
-			<h1 class="red">Anders Fogelberg</h1>
-			<h5>Software Engineer<a class="red">||</a>Web Developer<a class="red">||</a>anders.fogelberg@uconn.edu</h5>
-		</div>
-	</div>
-
-	<div id="intro">	
-		<div class="section">
+	<div class="container-fluid">
+		<div class="row grey">
 			<a name="about-me"></a>
-			<div class="left-heading">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
 				<h4 class="red">About Me</h4>
 			</div>
-			<div class="section-body-full">
-				<p>I am a software engineer currently persuing a degree in Computer Science and Engineering at the University of Connecticut. I am a fast learner due to my interests in science and technology and am eager to secure a job in a dynamic and innovative field.  ...(add moree)</p>
+			<div class="col-sm-9 full">
+				<p>I am a software engineer currently persuing a degree in Computer Science and Engineering at the University of Connecticut. I am a fast learner due to my interests in science and technology and am eager to secure a job in a dynamic and innovative field.</p>
 			</div>
 		</div>
 	</div>
-
-	<div id="resume">
-		<div class="section">
-			<a name="resume"></a>
-			<div class="split-section">
-				<div class="left-heading">
+	<div class="container-fluid">
+		<a name="resume"></a>
+		<div class="row resume education">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
 				<h4 class="red">Education</h4>
-				</div>
-				<div class="section-body-small">
-					<p><strong>BS Computer Science and Engineering</strong></p>
+			</div>
+			<div class="col-sm-7">
+				<p><strong>BS Computer Science and Engineering</strong></p>
 					<p>University of Connecticut Storrs</p>
-				</div>
-				<div class="right-info">
-					<p><small>MAY 2017</small></p>
-				</div>
 			</div>
-			<hr>
-			<div class="split-section">
-				<div class="left-heading">
-					<h4 class="red">Skills</h4>
-				</div>
-				<div class="section-body-full">
-					<div class="full-half">
-						<p><strong>Technical Skills</strong></p>
-						<ul>
-							<li>Matlab</li>
-							<li>Java</li>
-							<li>Python</li>
-							<li>Html & CSS</li>
-						</ul>
-					</div>
-					<div class="full-half">
-						<p><strong>Other Skills</strong></p>
-						<ul>
-							<li>Experience with Git</li>
-							<li>Critical thinking</li>
-							<li>Problem solving</li>
-							<li>Customer service</li>
-						</ul>
-					</div>
-				</div>
+			<div class="col-sm-2">
+				<p><small>MAY 2017</small></p>
 			</div>
-			<hr>
-			<div class="split-section">
-				<div class="left-heading">
-					<h4 class="red">Experience</h4>
-				</div>
-				<div class="section-body-small">
-					<p><strong>A100 Apprentice</strong></p>
-					<p>A100 is an apprenticeship program that gives aspiring software developers the tools, skills, and training neccesarry for high preformance in the field.</p>
-				</div>
-				<div class="right-info">
-					<p><small>MARCH 2016 - MAY 2016</small></p>
-				</div>
+		</div>
+		<div class="row resume skills">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+				<h4 class="red">Skills</h4>
 			</div>
-			<hr>
-			<div class="left-heading">
+			<div class="col-sm-4">
+				<p><strong>Technical Skills</strong></p>
+				<ul>
+					<li>Matlab</li>
+					<li>Java</li>
+					<li>Python</li>
+					<li>Html & CSS</li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<p><strong>Other Skills</strong></p>
+				<ul>
+					<li>Experience with Git</li>
+					<li>Critical thinking</li>
+					<li>Problem solving</li>
+					<li>Customer service</li>
+				</ul>
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+		<div class="row resume experience">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+				<h4 class="red">Experience</h4>
+			</div>
+			<div class="col-sm-7">
+				<p><strong>A100 Apprentice</strong></p>
+				<p>A100 is an apprenticeship program that gives aspiring software developers the tools, skills, and training neccesarry for high preformance in the field.</p>
+			</div>
+			<div class="col-sm-2">
+				<p><small>MARCH 2016-MAY 2016</small></p>
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+		<div class="row resume res-download">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
 				<h4 class="red">Resume Download</h4>
 			</div>
-			<div class="section-body-full">
-				<div id="download-link">
-					<a class="download-link" href="https://drive.google.com/uc?export=download&id=0B5F6UJd35rFQbGJwQ1hKWFdSVjQ">download my resume!</a>
-				</div>
+			<div class="col-sm-9 download">
+				<a class="download-link" href="https://drive.google.com/uc?export=download&id=0B5F6UJd35rFQbGJwQ1hKWFdSVjQ">download my resume!</a>
 			</div>
 		</div>
-	</div> 
-
-	<div id="portfolio">
-		<div class="section">
-			<a name="portfolio"></a>
-			<div class="left-heading">
+	</div>
+	<div class="container-fluid">
+		<a name="portfolio"></a>
+		<div class="row grey">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
 				<h4 class="red">Portfolio</h4>
 			</div>
-			<div class="section-body-full">
-				<p>ADD PORTFOLIO STUFF </p>
+			<div class="col-sm-9">
+				<p>Content coming soon!</p>
 			</div>
 		</div>
 	</div>
-
-	<div id="contact-info">
-		<div class="section">
-			<a name="contact-me"></a>
-			<div class="left-heading">
+	<div class="container-fluid">
+		<a name="contact-me"></a>
+		<div class="row contact">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2 section-title">
 				<h4>Contact Me:</h4>
 			</div>
-			<div class="section-body-full">
-				<form>
-					Name:<br>
-					<input type="text" name="name"><br>
-					Email:<br>
-					<input type="text" name="email"><br>
-					Message:<br>
-					<textarea name="message"></textarea>
-					<br><br>
-					<button type="button">Send Message</button>
-				</form>
+			<div class="col-sm-9">
+				<p>email: <a class="download-link" href="mailto:anders.fogelberg@uconn.edu">anders.fogelberg@uconn.edu</a></p>
+
 			</div>
 		</div>
 	</div>
-
-	<div class="container3">
-		<div id="footer">
-			Anders Fogelberg || anders.fogelberg@uconn.edu
+	<div class="container-fluid">
+		<div class="row footer">
+			<div class="col-sm-12">
+				<p>Anders Fogelberg || anders.fogelberg@uconn.edu</p>
+			</div>
 		</div>
-		<ul id="social">
-			<li class="facebook">
-				<a href="https://www.facebook.com/anders.fogelberg.33" target="blank">
-					<img src="facebook-letter-logo.png">
-				</a>
-			</li>
-			<li class="linkedin">
-				<a href="https://www.linkedin.com/in/anders-fogelberg-5a8a89b0" target="blank">
-					<img src="linkedin-logo.png">
-				</a>
-			</li>
-		</ul>
-
-	</div>
-	<div id="icon-reference">Icons made by <a class="icon-reference" href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a class="icon-reference" href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a class="icon-reference" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+	</div>	
 </body>
 </html>
